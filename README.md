@@ -1,4 +1,4 @@
-# pnevmomash
+# HOMESEF
 
 ## Project setup
 ```
