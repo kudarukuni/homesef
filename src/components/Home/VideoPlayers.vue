@@ -3,16 +3,16 @@
     <h2 class="title">Homesef Security Systems Video Gallery</h2>
     <div class="players__container">
       <div class="video-players">
-        <iframe src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="player-title">Additional Camera Web Server</p>
+        <iframe src="https://vm.tiktok.com/ZM2kr3ADg/" title="TikTok video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="player-title">Balcony Palisade Fence</p>
       </div>
       <div class="video-players">
-        <iframe src="https://vm.tiktok.com/ZM2khMuTD/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="player-title">Installing the System on Premises</p>
+        <iframe src="https://vm.tiktok.com/ZM2khMuTD/" title="TikTok video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="player-title">Window Trelisdor</p>
       </div>
       <div class="video-players">
-        <iframe src="https://vm.tiktok.com/ZM2krtYPY/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p class="player-title">HATS Homesef Security System Success Story</p>
+        <iframe src="https://vm.tiktok.com/ZM2krtYPY/" title="TikTok video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="player-title">Electic Gates with Remote</p>
       </div>
     </div>
   </section>
