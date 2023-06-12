@@ -11,7 +11,7 @@
         <p class="player-title">Installing the System on Premises</p>
       </div>
       <div class="video-players">
-        <iframe src="https://www.youtube.com/embed/7mehxnYGrMw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src="https://vm.tiktok.com/ZM2krtYPY/" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p class="player-title">HATS Homesef Security System Success Story</p>
       </div>
     </div>
