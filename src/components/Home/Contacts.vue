@@ -2,42 +2,41 @@
   <section class="contacts__wrapper" id="contacts">
     <div class="contacts__container">
       <div class="contacts-information">
-        <h2 class="title">Get In Touch</h2>
+        <h2 class="title" style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">Get In Touch</h2>
         <div class="contacts">
-          <a class="contact-links" href="tel:+263782516263">
+          <a class="contact-links" href="tel:+263715395168">
             <img src="@/assets/icons/phone-icon.svg">
-            <span>+263 78 2516 263</span>
+            <span style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">+263 71 539 5168</span>
           </a>
-          <a class="contact-links" href="mailto:krukuni@gmail.com">
+          <a class="contact-links" href="mailto:laubarara7@gmail.com">
             <img src="@/assets/icons/email-icon.svg">
-            <span>krukuni@gmail.com</span>
+            <span style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">laubarara7@gmail.com</span>
           </a>
-          <p class="address">
-            <span>Address: </span>
-            <a class="address-link" href="https://goo.gl/maps/Avi2X2VSKuLVSCi37" target="_blank">7 Arlington Rd Hatfield Harare Zimbabwe</a>
-          </p>
-          <p class="address">
-          <span>Address: </span>
-            <a class="address-link" href="https://goo.gl/maps/Avi2X2VSKuLVSCi37" target="_blank">7 Arlington Rd Hatfield Harare Zimbabwe</a>
-          </p>
-          <p class="address">
-            <span>Working Hours: </span> 09:00 to 18:00
-          </p>
           <a class="contact-links" href="https://www.instagram.com/hss/" target="_blank">
             <img src="@/assets/icons/inst-icon.svg">
-            <span>Homesef Security Sytems</span>
+            <span style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">Homesef Security Sytems</span>
           </a>
+          <p class="address">
+            <span style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">Address: </span>
+            <a class="address-link" href="https://goo.gl/maps/Avi2X2VSKuLVSCi37" target="_blank"
+              style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">No. 1 Ely Greencroft,
+              Lomagundi Rd, Harare, Zimbabwe</a>
+          </p>
+          <p class="address" style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;">
+            <span>Working Hours: </span> 09:00 to 18:00
+          </p>
         </div>
       </div>
-      <div class="map"><iframe src="Working Hours: </span> 09:00 to 18:00" frameborder="0"></iframe></div>
+      <div class="map"><iframe src="Working Hours: </span> 09:00 to 18:00" frameborder="0"
+          style="font-family: 'Gill Sans', Arial, Helvetica, sans-serif;"></iframe></div>
     </div>
   </section>
 </template>
 
 <script>
-    export default {
-        name: "Contacts"
-    }
+export default {
+  name: "Contacts"
+}
 </script>
 
 <style scoped>
@@ -49,32 +48,38 @@
   border-bottom: 2px solid #b1b1b1;
   transition-duration: 0.3s;
 }
+
 .contacts__container {
   display: flex;
   align-items: center;
   justify-content: center;
 }
+
 .title {
   font-size: 32px;
   color: #ffffff;
   font-weight: bold;
   margin-top: 0;
 }
+
 .address {
   color: #c4c4c4;
   margin-top: 40px;
 }
-.address > span {
+
+.address>span {
   font-size: 20px;
   color: #ffffff;
   font-weight: normal;
 }
+
 .address-link {
   color: #c4c4c4;
   text-decoration: none;
   padding-bottom: 5px;
   position: relative;
 }
+
 .contact-links {
   display: flex;
   align-items: center;
@@ -83,18 +88,22 @@
   cursor: pointer;
   margin-top: 40px;
 }
-.contact-links > img {
+
+.contact-links>img {
   width: 50px;
   margin-right: 20px;
 }
-.contact-links > span {
+
+.contact-links>span {
   color: #ffffff;
   font-size: 20px;
   font-weight: normal;
   padding-bottom: 5px;
   position: relative;
 }
-.contact-links > span:after, .address-link:after {
+
+.contact-links>span:after,
+.address-link:after {
   content: '';
   position: absolute;
   width: 100%;
@@ -106,71 +115,90 @@
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
-.contact-links > span:hover:after, .address-link:hover:after {
+
+.contact-links>span:hover:after,
+.address-link:hover:after {
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
 .map {
   margin-left: auto;
 }
-.map > iframe {
+
+.map>iframe {
   width: 780px;
   height: 615px;
 }
+
 @media only screen and (max-width : 1750px) {
   .contacts__wrapper {
     margin-top: 100px;
     padding: 100px 150px;
   }
-  .contact-links > span {
+
+  .contact-links>span {
     font-size: 18px;
   }
-  .contact-links > img {
+
+  .contact-links>img {
     width: 40px;
   }
-  .address > span {
+
+  .address>span {
     font-size: 16px;
   }
-  .map > iframe {
+
+  .map>iframe {
     width: 680px;
     height: 515px;
   }
 }
+
 @media only screen and (max-width : 1366px) {
   .contacts__wrapper {
     padding: 100px;
   }
-  .map > iframe {
+
+  .map>iframe {
     width: 580px;
     height: 515px;
   }
 }
+
 @media only screen and (max-width : 1024px) {
   .title {
     font-size: 26px;
   }
+
   .contacts__wrapper {
     padding: 50px;
   }
-  .map > iframe {
+
+  .map>iframe {
     width: 400px;
     height: 515px;
   }
 }
+
 @media only screen and (max-width : 800px) {
   .contacts__container {
     display: block;
   }
+
   .contacts-information {
     text-align: center;
   }
+
   .contact-links {
     margin: 40px auto 0;
   }
+
   .map {
     margin-top: 50px;
   }
-  .map > iframe {
+
+  .map>iframe {
     width: 100%;
     height: 415px;
   }
