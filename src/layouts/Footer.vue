@@ -10,7 +10,7 @@
       <footer-callback></footer-callback>
     </div>
     <div class="privacy__container">
-      <div class="copyright">Designed & Developed by Kuda Rukuni, Copyright © 2023</div>
+      <div class="copyright">Designed & Developed by Kuda Rukuni of Homesef Security Agency, Copyright © 2024</div>
       <router-link class="privacy-policy" :to="{ name: 'privacy' }" target="_blank">Privacy Policy</router-link>
     </div>
   </footer>
